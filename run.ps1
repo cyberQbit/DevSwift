@@ -31,8 +31,10 @@ $batPath = "$env:TEMP\DevSwift.bat"
 try {
     Invoke-WebRequest -Uri "https://raw.githubusercontent.com/cyberQbit/DevSwift/main/DevSwift.bat" -OutFile $batPath -UseBasicParsing
     
-    # === LINUX FORMATINI WINDOWS FORMATINA CEVIR ===
-    (Get-Content $batPath) | Set-Content $batPath -Encoding UTF8
+    # === LINUX (LF) FORMATINI WINDOWS (CRLF) FORMATINA ZORLA VE BOM'U YOK ET ===
+    $content = Get-Content $batPath -Raw
+    $utf8NoBom = New-Object System.Text.UTF8Encoding $false
+    [System.IO.File]::WriteAllText($batPath, $content, $utf8NoBom)
     
     Write-Host "[OK] Motor basariyla hazirlandi!" -ForegroundColor Green
     Write-Host "[*] Arayuz aciliyor..." -ForegroundColor Cyan
