@@ -38,8 +38,12 @@
   3. Select your language on the first run.
   4. Choose your desired setup profile and let the engine do the heavy lifting!
 </div>
-
 <br>
+
+*Note: Due to some issues, I had to recreate the repository. The commit numbers and repository history do not reflect reality!*
+
+
+---
 
 <div id="-türkçe">
   <h2><img src="https://i.imgur.com/3xLders.png" alt="Turkish Flag" width="24"> Türkçe</h2>
