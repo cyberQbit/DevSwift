@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/cULmb71.png" alt="DevSwift Logo" width="480" height="480" style="border-radius: 0px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+  <img src="https://i.imgur.com/cULmb71.png" alt="DevSwift Logo" width="580" height="180" style="border-radius: 0px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
   <h1>⚡ DevSwift Pro v2.0</h1>
   <p><b>The Ultimate One-Click Developer Environment Setup Engine.<br>Tek Tıkla Otomatik Geliştirici Ortamı Kurulum Motoru.</b></p>
   
