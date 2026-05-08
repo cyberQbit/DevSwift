@@ -1,0 +1,23 @@
+{
+  "Tarayicilar": [
+    { "Name": "Google Chrome", "Id": "Google.Chrome" },
+    { "Name": "Brave Browser", "Id": "Brave.Brave" },
+    { "Name": "Mozilla Firefox", "Id": "Mozilla.Firefox" }
+  ],
+  "Gelistirici Araclari": [
+    { "Name": "Visual Studio Code", "Id": "Microsoft.VisualStudioCode" },
+    { "Name": "Git", "Id": "Git.Git" },
+    { "Name": "Node.js", "Id": "OpenJS.NodeJS" },
+    { "Name": "Python 3", "Id": "Python.Python.3.11" }
+  ],
+  "Medya ve Iletisim": [
+    { "Name": "Discord", "Id": "Discord.Discord" },
+    { "Name": "Spotify", "Id": "Spotify.Spotify" },
+    { "Name": "VLC Media Player", "Id": "VideoLAN.VLC" }
+  ],
+  "Araclar": [
+    { "Name": "7-Zip", "Id": "7zip.7zip" },
+    { "Name": "Notepad++", "Id": "Notepad++.Notepad++" },
+    { "Name": "PowerToys", "Id": "Microsoft.PowerToys" }
+  ]
+}
