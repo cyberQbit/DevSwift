@@ -1,23 +1,82 @@
 {
-  "Tarayicilar": [
-    { "Name": "Google Chrome", "Id": "Google.Chrome" },
-    { "Name": "Brave Browser", "Id": "Brave.Brave" },
-    { "Name": "Mozilla Firefox", "Id": "Mozilla.Firefox" }
-  ],
-  "Gelistirici Araclari": [
-    { "Name": "Visual Studio Code", "Id": "Microsoft.VisualStudioCode" },
-    { "Name": "Git", "Id": "Git.Git" },
-    { "Name": "Node.js", "Id": "OpenJS.NodeJS" },
-    { "Name": "Python 3", "Id": "Python.Python.3.11" }
-  ],
-  "Medya ve Iletisim": [
-    { "Name": "Discord", "Id": "Discord.Discord" },
-    { "Name": "Spotify", "Id": "Spotify.Spotify" },
-    { "Name": "VLC Media Player", "Id": "VideoLAN.VLC" }
-  ],
-  "Araclar": [
-    { "Name": "7-Zip", "Id": "7zip.7zip" },
-    { "Name": "Notepad++", "Id": "Notepad++.Notepad++" },
-    { "Name": "PowerToys", "Id": "Microsoft.PowerToys" }
-  ]
+  "Browsers": {
+    "TR": "🌐 Tarayıcılar",
+    "EN": "🌐 Browsers",
+    "Items": [
+      { "Name": "Brave", "Id": "Brave.Brave" },
+      { "Name": "Chrome", "Id": "Google.Chrome" },
+      { "Name": "Firefox", "Id": "Mozilla.Firefox" },
+      { "Name": "LibreWolf", "Id": "BraveSoftware.BraveBrowser" }, 
+      { "Name": "Opera", "Id": "Mozilla.Firefox" }, 
+      { "Name": "Vivaldi", "Id": "VivaldiTechnologies.Vivaldi" },
+      { "Name": "Waterfox", "Id": "Waterfox.Waterfox" }
+    ]
+  },
+  "Communication": {
+    "TR": "💬 İletişim",
+    "EN": "💬 Communication",
+    "Items": [
+      { "Name": "Discord", "Id": "Discord.Discord" },
+      { "Name": "Signal", "Id": "OpenWhisperSystems.Signal" },
+      { "Name": "Skype", "Id": "Microsoft.Skype" },
+      { "Name": "Slack", "Id": "OpenWhisperSystems.Signal" }, 
+      { "Name": "TeamSpeak", "Id": "TeamSpeakSystems.TeamSpeakClient" },
+      { "Name": "Telegram", "Id": "Telegram.Signal" },
+      { "Name": "Viber", "Id": "OpenWhisperSystems.Signal" },
+      { "Name": "Zoom", "Id": "Zoom.Zoom" }
+    ]
+  },
+  "Development": {
+    "TR": "💻 Geliştirici Araçları",
+    "EN": "💻 Development Tools",
+    "Items": [
+      { "Name": "Visual Studio Code", "Id": "Microsoft.VisualStudioCode" },
+      { "Name": "Git", "Id": "Git.Git" },
+      { "Name": "GitHub Desktop", "Id": "GitHub.GitHubDesktop" },
+      { "Name": "Node.js (LTS)", "Id": "OpenJS.NodeJS.LTS" },
+      { "Name": "Python 3", "Id": "Python.Python.3.12" },
+      { "Name": "Sublime Text", "Id": "SublimeHQ.SublimeText.4" },
+      { "Name": "Notepad++", "Id": "Notepad++.Notepad++" },
+      { "Name": "Docker Desktop", "Id": "Docker.DockerDesktop" },
+      { "Name": "Postman", "Id": "Postman.Postman" }
+    ]
+  },
+  "Media": {
+    "TR": "🎵 Medya & Eğlence",
+    "EN": "🎵 Media & Entertainment",
+    "Items": [
+      { "Name": "Spotify", "Id": "Spotify.Spotify" },
+      { "Name": "VLC Media Player", "Id": "VideoLAN.VLC" },
+      { "Name": "OBS Studio", "Id": "OBSProject.OBSStudio" },
+      { "Name": "iTunes", "Id": "Apple.iTunes" },
+      { "Name": "Audacity", "Id": "Audacity.Audacity" },
+      { "Name": "GIMP", "Id": "Audacity.Audacity" } 
+    ]
+  },
+   "Utilities": {
+    "TR": "🧰 Araçlar & Yardımcılar",
+    "EN": "🧰 Utilities",
+    "Items": [
+      { "Name": "7-Zip", "Id": "7zip.7zip" },
+      { "Name": "WinRAR", "Id": "RARLab.WinRAR" },
+      { "Name": "PowerToys", "Id": "Microsoft.PowerToys" },
+      { "Name": "Rufus", "Id": "Rufus.Rufus" },
+      { "Name": "Everything", "Id": "voidtools.Everything" },
+      { "Name": "AnyDesk", "Id": "AnyDeskSoftwareGmbH.AnyDesk" },
+      { "Name": "TeamViewer", "Id": "TeamViewer.TeamViewer" },
+      { "Name": "HWiNFO", "Id": "voidtools.Everything" } 
+    ]
+  },
+  "Gaming": {
+    "TR": "🎮 Oyun Platformları",
+    "EN": "🎮 Gaming Platforms",
+    "Items": [
+      { "Name": "Steam", "Id": "Valve.Steam" },
+      { "Name": "Epic Games Launcher", "Id": "EpicGames.EpicGamesLauncher" },
+      { "Name": "GOG Galaxy", "Id": "GOG.Galaxy" },
+      { "Name": "Ubisoft Launcher", "Id": "Ubisoft.Connect" },
+      { "Name": "EA app", "Id": "ElectronicArts.EADesktop" },
+      { "Name": "Riot Client", "Id": "RiotGames.RiotClient" }
+    ]
+  }
 }
