@@ -1,5 +1,5 @@
 :: ==============================================================================
-:: ⚡ DEVSWIFT PRO v3.0 - DYNAMIC JSON ENGINE (Zero-Footprint)
+:: [⚡] DEVSWIFT PRO v3.0 - DYNAMIC JSON ENGINE (Zero-Footprint)
 :: ==============================================================================
 @echo off
 chcp 65001 >nul
