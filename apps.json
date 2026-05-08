@@ -3,27 +3,32 @@
     "TR": "🌐 Tarayıcılar",
     "EN": "🌐 Browsers",
     "Items": [
-      { "Name": "Brave", "Id": "Brave.Brave" },
-      { "Name": "Chrome", "Id": "Google.Chrome" },
-      { "Name": "Firefox", "Id": "Mozilla.Firefox" },
-      { "Name": "LibreWolf", "Id": "BraveSoftware.BraveBrowser" }, 
-      { "Name": "Opera", "Id": "Mozilla.Firefox" }, 
+      { "Name": "Google Chrome", "Id": "Google.Chrome" },
+      { "Name": "Brave Browser", "Id": "Brave.Brave" },
+      { "Name": "Mozilla Firefox", "Id": "Mozilla.Firefox" },
+      { "Name": "Opera GX", "Id": "Opera.OperaGX" },
+      { "Name": "Opera", "Id": "Opera.Opera" },
       { "Name": "Vivaldi", "Id": "VivaldiTechnologies.Vivaldi" },
-      { "Name": "Waterfox", "Id": "Waterfox.Waterfox" }
+      { "Name": "LibreWolf", "Id": "LibreWolf.LibreWolf" },
+      { "Name": "Waterfox", "Id": "Waterfox.Waterfox" },
+      { "Name": "Thorium", "Id": "Alex313031.Thorium" },
+      { "Name": "Tor Browser", "Id": "TorProject.TorBrowser" }
     ]
   },
   "Communication": {
-    "TR": "💬 İletişim",
-    "EN": "💬 Communication",
+    "TR": "💬 İletişim & Sosyal",
+    "EN": "💬 Communication & Social",
     "Items": [
       { "Name": "Discord", "Id": "Discord.Discord" },
-      { "Name": "Signal", "Id": "OpenWhisperSystems.Signal" },
+      { "Name": "Telegram Desktop", "Id": "Telegram.TelegramDesktop" },
+      { "Name": "WhatsApp", "Id": "WhatsApp.WhatsApp" },
       { "Name": "Skype", "Id": "Microsoft.Skype" },
-      { "Name": "Slack", "Id": "OpenWhisperSystems.Signal" }, 
-      { "Name": "TeamSpeak", "Id": "TeamSpeakSystems.TeamSpeakClient" },
-      { "Name": "Telegram", "Id": "Telegram.Signal" },
-      { "Name": "Viber", "Id": "OpenWhisperSystems.Signal" },
-      { "Name": "Zoom", "Id": "Zoom.Zoom" }
+      { "Name": "Zoom", "Id": "Zoom.Zoom" },
+      { "Name": "Microsoft Teams", "Id": "Microsoft.Teams" },
+      { "Name": "Slack", "Id": "SlackTechnologies.Slack" },
+      { "Name": "Signal", "Id": "OpenWhisperSystems.Signal" },
+      { "Name": "Viber", "Id": "Viber.Viber" },
+      { "Name": "TeamSpeak 3", "Id": "TeamSpeakSystems.TeamSpeakClient" }
     ]
   },
   "Development": {
@@ -34,37 +39,62 @@
       { "Name": "Git", "Id": "Git.Git" },
       { "Name": "GitHub Desktop", "Id": "GitHub.GitHubDesktop" },
       { "Name": "Node.js (LTS)", "Id": "OpenJS.NodeJS.LTS" },
-      { "Name": "Python 3", "Id": "Python.Python.3.12" },
-      { "Name": "Sublime Text", "Id": "SublimeHQ.SublimeText.4" },
-      { "Name": "Notepad++", "Id": "Notepad++.Notepad++" },
+      { "Name": "Python 3.12", "Id": "Python.Python.3.12" },
+      { "Name": "Java (JRE 8)", "Id": "Oracle.JavaRuntimeEnvironment" },
       { "Name": "Docker Desktop", "Id": "Docker.DockerDesktop" },
-      { "Name": "Postman", "Id": "Postman.Postman" }
+      { "Name": "Postman", "Id": "Postman.Postman" },
+      { "Name": "Notepad++", "Id": "Notepad++.Notepad++" },
+      { "Name": "Sublime Text 4", "Id": "SublimeHQ.SublimeText.4" },
+      { "Name": "DB Browser for SQLite", "Id": "DBBrowserForSQLite.DBBrowserForSQLite" },
+      { "Name": "Android Studio", "Id": "Google.AndroidStudio" }
     ]
   },
   "Media": {
-    "TR": "🎵 Medya & Eğlence",
-    "EN": "🎵 Media & Entertainment",
+    "TR": "🎵 Medya & Tasarım",
+    "EN": "🎵 Media & Design",
     "Items": [
-      { "Name": "Spotify", "Id": "Spotify.Spotify" },
       { "Name": "VLC Media Player", "Id": "VideoLAN.VLC" },
+      { "Name": "Spotify", "Id": "Spotify.Spotify" },
       { "Name": "OBS Studio", "Id": "OBSProject.OBSStudio" },
-      { "Name": "iTunes", "Id": "Apple.iTunes" },
+      { "Name": "K-Lite Codec Pack", "Id": "CodecGuide.K-LiteCodecPack.Standard" },
       { "Name": "Audacity", "Id": "Audacity.Audacity" },
-      { "Name": "GIMP", "Id": "Audacity.Audacity" } 
+      { "Name": "iTunes", "Id": "Apple.iTunes" },
+      { "Name": "GIMP", "Id": "GIMP.GIMP" },
+      { "Name": "Krita", "Id": "KDE.Krita" },
+      { "Name": "Paint.NET", "Id": "dotPDNLLC.paint.net" },
+      { "Name": "HandBrake", "Id": "HandBrake.HandBrake" },
+      { "Name": "Foobar2000", "Id": "PeterPawlowski.foobar2000" }
     ]
   },
-   "Utilities": {
-    "TR": "🧰 Araçlar & Yardımcılar",
-    "EN": "🧰 Utilities",
+  "Utilities": {
+    "TR": "🧰 Sistem Araçları",
+    "EN": "🧰 System Utilities",
     "Items": [
       { "Name": "7-Zip", "Id": "7zip.7zip" },
       { "Name": "WinRAR", "Id": "RARLab.WinRAR" },
-      { "Name": "PowerToys", "Id": "Microsoft.PowerToys" },
+      { "Name": "Microsoft PowerToys", "Id": "Microsoft.PowerToys" },
       { "Name": "Rufus", "Id": "Rufus.Rufus" },
-      { "Name": "Everything", "Id": "voidtools.Everything" },
+      { "Name": "Everything (Hızlı Arama)", "Id": "voidtools.Everything" },
+      { "Name": "HWiNFO", "Id": "REALiX.HWiNFO" },
+      { "Name": "CPU-Z", "Id": "CPUID.CPU-Z" },
+      { "Name": "GPU-Z", "Id": "TechPowerUp.GPU-Z" },
+      { "Name": "MSI Afterburner", "Id": "Guru3D.Afterburner" },
+      { "Name": "CrystalDiskInfo", "Id": "CrystalDewWorld.CrystalDiskInfo" },
       { "Name": "AnyDesk", "Id": "AnyDeskSoftwareGmbH.AnyDesk" },
       { "Name": "TeamViewer", "Id": "TeamViewer.TeamViewer" },
-      { "Name": "HWiNFO", "Id": "voidtools.Everything" } 
+      { "Name": "qBittorrent", "Id": "qBittorrent.qBittorrent" },
+      { "Name": "Bitwarden", "Id": "Bitwarden.Bitwarden" }
+    ]
+  },
+  "Productivity": {
+    "TR": "📚 Verimlilik & Ofis",
+    "EN": "📚 Productivity & Office",
+    "Items": [
+      { "Name": "LibreOffice", "Id": "TheDocumentFoundation.LibreOffice" },
+      { "Name": "Notion", "Id": "Notion.Notion" },
+      { "Name": "Obsidian", "Id": "Obsidian.Obsidian" },
+      { "Name": "SumatraPDF", "Id": "SumatraPDF.SumatraPDF" },
+      { "Name": "Foxit PDF Reader", "Id": "Foxit.FoxitReader" }
     ]
   },
   "Gaming": {
@@ -74,9 +104,11 @@
       { "Name": "Steam", "Id": "Valve.Steam" },
       { "Name": "Epic Games Launcher", "Id": "EpicGames.EpicGamesLauncher" },
       { "Name": "GOG Galaxy", "Id": "GOG.Galaxy" },
-      { "Name": "Ubisoft Launcher", "Id": "Ubisoft.Connect" },
+      { "Name": "Ubisoft Connect", "Id": "Ubisoft.Connect" },
       { "Name": "EA app", "Id": "ElectronicArts.EADesktop" },
-      { "Name": "Riot Client", "Id": "RiotGames.RiotClient" }
+      { "Name": "Riot Client", "Id": "RiotGames.RiotClient" },
+      { "Name": "Battle.net", "Id": "Blizzard.BattleNet" },
+      { "Name": "Minecraft Launcher", "Id": "Mojang.MinecraftLauncher" }
     ]
   }
 }
